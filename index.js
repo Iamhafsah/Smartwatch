@@ -12,19 +12,19 @@ for(let i = 0; i < colors.length; i++){
     colors[i].addEventListener('click', function(e){
         switch(e.target.className){
             case 'one' :
-                watch.src = "/smartwatch/blue.png";
+                watch.src = "blue.png";
                 break;
             case 'two' :
-                watch.src = "/smartwatch/purple.png";
+                watch.src = "purple.png";
                 break;
             case 'three' :
-                watch.src = "/smartwatch/black.png";
+                watch.src = "black.png";
                 break;
             case 'four' :
-            watch.src = "/smartwatch/red.png";
+            watch.src = "red.png";
             break;
             case 'five' :
-                watch.src = "/smartwatch/pink.png";
+                watch.src = "pink.png";
                 break;
         }
 
