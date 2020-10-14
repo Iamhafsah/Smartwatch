@@ -157,4 +157,7 @@ button:active{
     .watch p, .heart-div{
         display: none;
     }
+    .features{
+        display: none;
+    }
 }
