@@ -45,6 +45,9 @@ const heartShowing = () =>{
 timeBtn.addEventListener('click', timeEffect);
 heartBtn.addEventListener('click', heartShowing);
 
+// show random numbers
+let heartNum = document.querySelector('.heart-p');
+heartNum.innerHTML = Math.floor(Math.random() * 30) + 40;
 // buy now button
 
 let buyNow = document.querySelector('.buy-now');
