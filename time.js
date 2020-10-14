@@ -1,6 +1,10 @@
 // for the time
 function digitalDate(){
     let date = new Date();
+    // let countingTime = document.querySelector('.time');
+
+    // let time = date.getHours() + ':' + date.getMinutes() + ':'+  date.getSeconds();
+    // countingTime.innerHTML = time;
 
     let hour = date.getHours();
     let minutes = date.getMinutes();
